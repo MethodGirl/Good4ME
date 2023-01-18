@@ -79,7 +79,7 @@ a {
 
 .link-search {
     position: absolute;
-    top: 11px;
+    top: 15px;
 }
 
 .link-search::before {
@@ -91,7 +91,7 @@ a {
 
 .link-cart{
     position: absolute;
-    top: 10px;
+    top: 14px;
 }
 
 .link-cart::before {
@@ -152,6 +152,10 @@ a {
     padding: 10px;
     width: 120px;
     border: none;
+}
+
+.multi-vitamin {
+    padding-bottom: 40px;
 }
 
 .visually-hidden {
