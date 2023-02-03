@@ -1,0 +1,746 @@
+/*========== Desktop First ==========*/
+/* Extra Large Devices, Full HD*/
+@media only screen and (max-width: 5120px) {
+    .close-nav {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .buy {
+        top: 215px;
+        left: 235px;
+    }
+
+    .goods {
+        width: 600px;
+        height: 400px;
+    }
+
+    .close-nav {
+        visibility: hidden;
+    }
+
+}
+
+
+/*Extra Large Devices, Large Desktops */
+@media only screen and (max-width: 1200px) {
+    .buy {
+        top: 200px;
+        left: 185px;
+    }
+
+    .goods {
+        width: 500px;
+        height: 350px;
+    }
+
+    .new-collection__products {
+        margin-top: 50px;
+    }
+
+    .new-collection__products>img {
+        width: 333px;
+        height: 200px;
+    }
+
+    .close-nav {
+        visibility: hidden;
+    }
+}
+
+
+
+/* Large Devices, Desktops  */
+@media only screen and (max-width: 1080px) {
+    .multi-vitamin {
+        height: 410px;
+        width: 400px;
+    }
+
+    .blogger {
+        width: 400px;
+        height: 470px;
+        margin-left: 100px;
+    }
+
+    .blogger-background {
+        width: 350px;
+        height: 620px;
+    }
+
+    .close-nav {
+        visibility: hidden;
+    }
+
+    .main-nav__item:nth-child(even) {
+        margin: 0 30px;
+    }
+}
+
+
+/* Large Devices, Desktops */
+@media only screen and (max-width: 992px) {
+    .hamburger {
+        display: flex;
+        align-items: center;
+        margin-top: -25px;
+        width: 40px;
+    }
+
+    .hamburger::before {
+        content: url(../img/svg/menu\ 1\ \(1\).svg);
+        display: block;
+        margin-top: 23px;
+        position: absolute;
+    }
+
+    .hamburger:hover {
+        cursor: pointer;
+    }
+
+    #hamburger-1.is-active .main-nav__list:nth-child(2) {
+        opacity: 0;
+    }
+
+    .suggestion-screen__right-decor {
+        display: none;
+    }
+
+    .main-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #FFF8F6;
+        height: 50px;
+    }
+
+    .main-nav__wrapper {
+        display: none;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, .3);
+        z-index: 10000;
+    }
+
+    .main-nav__list {
+        font-size: 27px;
+        line-height: 22px;
+        text-align: center;
+        display: block;
+        position: absolute;
+        width: 300px;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: white;
+        padding-top: 20px;
+        margin: 0;
+    }
+
+    .main-nav {
+        display: flex;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        margin-right: 20px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .main-nav__list>.site-list__item {
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .close-nav {
+        width: 40px;
+        height: 40px;
+        right: 5px;
+        top: 5px;
+        border: none;
+        padding: 0;
+        background-color: white;
+        position: absolute;
+    }
+
+    .close-nav::before,
+    .close-nav::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: black;
+        transform: rotate(45deg);
+        left: 0;
+    }
+
+    .close-nav::after {
+        transform: rotate(-45deg);
+    }
+
+    .main-nav__item {
+        margin-bottom: 20px;
+    }
+
+
+    .main-nav__item:nth-child(even) {
+        margin-bottom: 20px;
+    }
+
+    .multi-vitamin {
+        height: 310px;
+        width: 300px;
+    }
+
+    .first-screen__offer {
+        margin-top: 35px;
+        width: 450px;
+        margin-left: 20px;
+    }
+
+    .suggestion-screen__right-decor {
+        display: none;
+    }
+
+    .suggestion-screen__description {
+        margin-right: 20px;
+    }
+
+    .suggestion-screen {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 120px;
+    }
+
+    .product-list {
+        margin-right: 20px;
+    }
+
+    .features-advantages__multivitamin {
+        width: 327px;
+        height: 338px;
+    }
+
+    .highlight_subtitle {
+        font-size: 15px;
+    }
+
+    .services-features__item {
+        margin-top: 100px;
+    }
+
+    .news-block__list {
+        padding: 0;
+        margin-left: 10px;
+    }
+
+    .new-collection {
+        display: none;
+    }
+
+    .review {
+        width: 200px;
+        font-size: 18px;
+    }
+
+    .reviews-images {
+        display: flex;
+        padding-bottom: 90px;
+        flex-flow: row-reverse;
+        padding-top: 90px;
+        padding-right: 10px;
+    }
+
+    .blogger {
+        width: 262px;
+        height: 335px;
+        margin-left: 45px;
+        margin-top: 60px;
+    }
+
+    .blogger-background {
+        width: 280px;
+        height: 480px;
+    }
+
+    .tag-gallery-photo {
+        display: none;
+    }
+
+    .main-footer__connection {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .connection-subtitle {
+        text-align: center;
+        width: auto;
+        margin-bottom: 50px;
+        color: #454545;
+        font-size: 16px;
+    }
+
+    .tag-gallery {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .multi-vitamin {
+        height: 310px;
+        width: 300px;
+        padding: 0 10px;
+        padding-bottom: 10px;
+    }
+
+    .subtitle {
+        margin: 15px 0;
+        width: auto;
+    }
+
+    .title {
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 50px;
+        margin: 0;
+        width: auto;
+        text-transform: uppercase;
+    }
+
+    .hit-products__heading {
+        font-size: 30px;
+        line-height: 40px;
+        width: 415px;
+        margin: 0px;
+        margin-left: 20px;
+    }
+
+    .hit-products__subtitle {
+        width: 415px;
+        line-height: 26px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+    .features-advantages__multivitamin {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .news__heading {
+        font-size: 30px;
+        line-height: 40px;
+        width: 415px;
+        margin: 0px;
+        margin-left: 20px;
+    }
+
+    .news__subtitle {
+        width: 455px;
+        line-height: 26px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+    .services-description {
+        margin-left: 20px;
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 768px) {
+    .suggestion-screen__description {
+        margin-right: 30px;
+    }
+
+    .features-advantages__multivitamin {
+        width: 250px;
+        height: 255px;
+    }
+
+    .product-list {
+        margin: 10px;
+    }
+
+    .nav-user {
+        margin-top: 255px;
+    }
+
+    .link-search {
+        position: absolute;
+        top: 15px;
+        left: 110px;
+    }
+
+    .link-cart {
+        position: absolute;
+        top: 14px;
+        right: 110px;
+
+    }
+
+    .main-header {
+        height: 50px;
+    }
+
+    .reviews {
+        display: flex;
+        justify-content: space-around;
+        margin: 140px 35px;
+        background: #FFF8F6;
+        flex-flow: row-reverse;
+        border-radius: 10px;
+    }
+
+    .background-blogger-2 {
+        width: 240px;
+        height: 140px;
+    }
+
+
+    .blogger-2 {
+        width: 276px;
+        height: 215px;
+    }
+
+    .reviews-results {
+        margin-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 0px;
+        padding-top: 20px;
+    } 
+
+
+    .features-description__subtitle {
+        margin: 15px 10px;
+        width: auto;
+    }
+
+    .main-footer__description {
+        display: none;
+    }
+
+    .reviews-images {
+        display: flex;
+        padding-bottom: 90px;
+        flex-flow: row-reverse;
+        padding-top: 90px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 680px) {
+    .features-points {
+        display: flex;
+        margin-top: 0;
+        flex-wrap: wrap;
+    }
+
+    .features-point {
+        display: flex;
+        margin-top: 20px;
+        justify-content: space-evenly;
+        flex-flow: nowrap;
+    }
+
+    .first-column, .second-column, .third-column, .fourth-column {
+        margin-left: 20px;
+    }
+
+    .features-advantages__multivitamin {
+        width: 215px;
+        margin-left: auto;
+        height: 218px;
+        margin-right: auto;
+    }
+
+    .hit-products__header {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .news__header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .reviews {
+        display: flex;
+        justify-content: space-around;
+        margin: 90px 35px;
+        background: #FFF8F6;
+        flex-flow: row-reverse;
+        flex-wrap: wrap-reverse;
+        border-radius: 10px;
+    }
+
+    .reviews-results {
+        margin-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 25px;
+        padding-top: 20px;
+    }
+
+    .reviews-images {
+        display: flex;
+        padding-bottom: 0;
+        flex-flow: row-reverse;
+        padding-top: 90px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .main-footer {
+        margin-top: 120px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: baseline;
+        margin-bottom: 20px;
+    }
+
+    .main-footer__info-block {
+        margin-right: 20px;
+        width: 155px;
+        margin-top: 20px;
+    }
+
+    .news-block__list {
+        padding: 0;
+        margin-left: 10px;
+    }
+
+    .multi-vitamin {
+        height: 260px;
+        width: 250px;
+        padding: 0 10px;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-bottom: 10px;
+    }
+
+    .range-button {
+        width: 180px;
+        text-transform: uppercase;
+        font-size: 13px;
+        padding: 15px;
+        background-color: white;
+        border-color: #F6623E;
+        font-weight: 700;
+    }
+
+    .suggestion-screen__description {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .blogger {
+        width: 232px;
+        height: 305px;
+        margin-left: 45px;
+        margin-top: 65px;
+    }
+
+    .blogger-background {
+        width: 200px;
+        height: 450px;
+    }
+
+    .suggestion-screen__subtitle {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+
+    .subtitle {
+        margin: 15px 0px;
+        width: auto;
+        font-size: 15px;
+        margin-right: 10px;
+    }
+
+    .features-description__subtitle {
+        margin: 15px 10px;
+        width: auto;
+    }
+
+    .main-footer {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: baseline;
+        margin-bottom: 20px;
+    }
+
+    .tag {
+        margin-top: 0;
+        background: linear-gradient(to bottom, white 20%, #FFF8F6 80%);
+    }
+}
+
+/* Small Devices, Phones */
+
+@media only screen and (max-width: 540px) {
+    .first-screen {
+        display: flex;
+        padding-top: 40px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background: #FFF8F6;
+    }
+
+    .multi-vitamin {
+        height: 230px;
+        width: 220px;
+        padding: 0 auto;
+        margin-top: 20px;
+        margin-bottom: auto;
+        padding-bottom: 10px;
+    }
+
+    .tag-shop {
+        padding: 55px 0;
+        margin: 0;
+        color: rgba(255, 103, 66, 0.3);
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 55px;
+    }
+
+
+    .footer-bottom {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-bottom__social-media{
+        width: 200px;
+        display: flex;
+    }
+
+
+    .footer-bottom__company-info{
+        display: flex;
+        justify-content: center;
+    }
+
+    .suggestion-screen {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 120px;
+        flex-wrap: wrap;
+    }
+
+    .blogger {
+        width: 232px;
+        height: 285px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .blogger-background {
+        display: none;
+    }
+
+    .separator-picture {
+        height: 140px;
+        width: -webkit-fill-available;;
+    }
+
+    .first-screen__offer {
+        width: auto;
+        margin-top: 35px;
+        margin-left: 20px;
+    }
+
+    .hit-products__heading {
+        font-size: 30px;
+        line-height: 40px;
+        width: auto;
+        margin: 0px;
+        margin-left: 20px;
+    }
+
+    .hit-products__subtitle {
+        width: auto;
+        line-height: 26px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+    .heading {
+        font-size: 30px;
+        line-height: 40px;
+        width: auto;
+        margin: 0;
+    }
+
+    .services-description__subtitle {
+        width: auto;
+        font-size: 15px;
+        line-height: 26px;
+        margin-top: 5px;
+    }
+
+    .news__heading {
+        font-size: 30px;
+        line-height: 40px;
+        width: auto;
+        margin: 0px;
+        margin-left: 20px;
+    }
+
+    .news__subtitle {
+        width: auto;
+        line-height: 26px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+    .blogger-2 {
+        width: 220px;
+        height: 170px;
+        margin-right: 0;
+    }
+
+    .background-blogger-2 {
+        display: none;
+    }
+
+    .reviews-images {
+        display: flex;
+        padding-bottom: 0;
+        flex-flow: row-reverse;
+        padding-top: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .second-column,.fourth-column {
+        margin-right: 10px;
+    }
+}
+
+
+/* Custom, Iphone */
+
+@media only screen and (max-width: 400px) {}
